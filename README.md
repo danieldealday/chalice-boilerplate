@@ -65,5 +65,5 @@ $ pip install pandoc
 # transform Markdown to Docx
 $ pandoc -s README.md -t docx -o README.docx
 # transform Docx to Markdown
-$ pandoc -s README.docx -t markdown -o README.md
+$ pandoc -s README.docx -t markdown-simple_tables-multiline_tables-grid_tables -o README.md
 ```
